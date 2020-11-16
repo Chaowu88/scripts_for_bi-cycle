@@ -1,0 +1,19 @@
+#Enzyme ID	Reversibility	ΔrG'm (kJ/mol)	Substrates	Products	Substrate Km (mM)	Product Km (mM)	kcat (1/s)	Enzyme MW (kDa)
+tkt1	1	9.4	F6P,GAP	E4P,X5P	1.1;2.1	0.09;0.16		32.423
+pkt	0	-58.2	X5P,Pi	GAP,AcP	;	;		
+pta	1	-11.3	CoA,AcP	AcCoA,Pi	0.56;0.66	0.02(0.0095,0.045);2.1	135.2	38
+pfor	1	13.2	CO2,AcCoA,2rFdx	Pyr,CoA,2oFdx	;;	;;		129.94
+pc	0	-4.2	Pyr,ATP,CO2	OAA,ADP,Pi	;;	;;		128.5
+pepck	0	-7.5	OAA,Pi	PEP,CO2	;	0.34;0.19	540	58.769
+end	1	4.1	PEP	G2P				46.94
+pgm	1	-4.7	G2P	G3P		4.7(4.2,5.2)		56.3
+pgk	1	17.7	G3P,ATP	Go3P,ADP	;	;		42.956
+gapdh	1	-31.3	Go3P,NADPH	GAP,NADP,Pi	;	0.89;;0.53		38.575
+tpi	1	-5.1	GAP	DHAP	1.03		9000	27.172
+fba	1	-2.9	GAP,DHAP	FBP	;	0.17(0.12,0.3)	10.8	33.579
+fbp	0	-29.6	FBP	F6P,Pi	0.009(0.0012,1)	;	12.1	77.46
+tal	1	0.4	E4P,F6P	GAP,S7P	0.16(0.078,0.555);1.15(0.6,4.9)	0.27(0.038,1.9);0.285	13	24.446
+tkt2	1	4.1	GAP,S7P	R5P,X5P	2.1;4	1.4;0.16		32.423
+rpi	1	1.5	R5P	Ru5P	2.2(0.83,4.4)		2100	16.385
+rpe	1	-3.4	Ru5P	X5P				23.776
+ak	1	-12.6	ADP,AcP	ATP,Ac	3.355(0.71,6);0.58	1.435(0.37,2.5);116.5(73,160)		88
