@@ -1,1 +1,0 @@
-# scripts_for_bi-cycle
